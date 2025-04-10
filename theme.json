@@ -1,6 +1,105 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "custom-white"
+				},
+				{
+					"color": "#f6f6f6",
+					"name": "Gray More Light",
+					"slug": "custom-gray-more-light"
+				},
+				{
+					"color": "#e8e8e8",
+					"name": "Gray Light",
+					"slug": "custom-gray-light"
+				},
+				{
+					"color": "#dcdcdc",
+					"name": "Gray",
+					"slug": "custom-gray"
+				},
+				{
+					"color": "#969696",
+					"name": "Gray Dark",
+					"slug": "custom-gray-dark"
+				},
+				{
+					"color": "#3f3d56",
+					"name": "Black",
+					"slug": "custom-black"
+				},
+				{
+					"color": "#fffacf",
+					"name": "Yellow Light",
+					"slug": "custom-yellow-light"
+				},
+				{
+					"color": "#ffed8c",
+					"name": "Yellow",
+					"slug": "custom-yellow"
+				},
+				{
+					"color": "#ffc8c7",
+					"name": "Pink Light",
+					"slug": "custom-pink-light"
+				},
+				{
+					"color": "#f1acac",
+					"name": "Pink",
+					"slug": "custom-pink"
+				},
+				{
+					"color": "#ee6284",
+					"name": "Red",
+					"slug": "custom-red"
+				},
+				{
+					"color": "#e02d58",
+					"name": "Red Dark",
+					"slug": "custom-red-dark"
+				},
+				{
+					"color": "#ffe2c0",
+					"name": "Orange Light",
+					"slug": "custom-orange-light"
+				},
+				{
+					"color": "#ff8616",
+					"name": "Orange",
+					"slug": "custom-orange"
+				},
+				{
+					"color": "#a5df97",
+					"name": "Green Light",
+					"slug": "custom-green-light"
+				},
+				{
+					"color": "#4cd0a1",
+					"name": "Green",
+					"slug": "custom-green"
+				},
+				{
+					"color": "#8dc8e8",
+					"name": "Blue Light",
+					"slug": "custom-blue-light"
+				},
+				{
+					"color": "#5b9cc0",
+					"name": "Blue",
+					"slug": "custom-blue"
+				},
+				{
+					"color": "#b386d7",
+					"name": "Purple",
+					"slug": "custom-purple"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "980px",
 			"wideSize": "1180px"
