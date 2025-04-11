@@ -416,10 +416,10 @@
 		"spacing": {
 			"blockGap": "0",
 			"padding": {
-				"bottom": "var(--wp--preset--spacing--20)",
-				"left": "var(--wp--preset--spacing--80)",
-				"right": "var(--wp--preset--spacing--80)",
-				"top": "var(--wp--preset--spacing--20)"
+				"bottom": "0",
+				"left": "var(--wp--preset--spacing--24)",
+				"right": "var(--wp--preset--spacing--24)",
+				"top": "0"
 			}
 		},
 		"typography": {
