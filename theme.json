@@ -118,6 +118,7 @@
 			]
 		},
 		"spacing": {
+			"defaultSpacingSizes": false,
 			"units": [
 				"%",
 				"px",
@@ -125,6 +126,58 @@
 				"rem",
 				"vh",
 				"vw"
+			],
+			"spacingSizes": [
+				{
+					"name": "10",
+					"slug": "10",
+					"size": "clamp(0.5rem, 0.438rem + 0.25vw, 0.625rem)"
+				},
+				{
+					"name": "12",
+					"slug": "12",
+					"size": "clamp(0.625rem, 0.563rem + 0.25vw, 0.75rem)"
+				},
+				{
+					"name": "16",
+					"slug": "16",
+					"size": "clamp(0.75rem, 0.627rem + 0.51vw, 1rem)"
+				},
+				{
+					"name": "20",
+					"slug": "20",
+					"size": "clamp(1rem, 0.877rem + 0.51vw, 1.25rem)"
+				},
+				{
+					"name": "24",
+					"slug": "24",
+					"size": "clamp(1.25rem, 1.127rem + 0.51vw, 1.5rem)"
+				},
+				{
+					"name": "30",
+					"slug": "30",
+					"size": "clamp(1.5rem, 1.315rem + 0.76vw, 1.875rem)"
+				},
+				{
+					"name": "40",
+					"slug": "40",
+					"size": "clamp(1.875rem, 1.566rem + 1.27vw, 2.5rem)"
+				},
+				{
+					"name": "60",
+					"slug": "60",
+					"size": "clamp(2.5rem, 1.883rem + 2.53vw, 3.75rem)"
+				},
+				{
+					"name": "80",
+					"slug": "80",
+					"size": "clamp(3.75rem, 3.133rem + 2.53vw, 5rem)"
+				},
+				{
+					"name": "100",
+					"slug": "100",
+					"size": "clamp(5rem, 4.383rem + 2.53vw, 6.25rem)"
+				}
 			]
 		},
 		"typography": {
