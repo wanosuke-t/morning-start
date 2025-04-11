@@ -182,6 +182,10 @@
 		},
 		"typography": {
 			"defaultFontSizes": false,
+			"fluid": {
+				"minViewportWidth": "390px",
+				"maxViewportWidth": "1180px"
+			},
 			"fontFamilies": [
 				{
 					"fontFace": [
