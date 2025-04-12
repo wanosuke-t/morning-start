@@ -1,0 +1,3 @@
+.wp-block-button.is-style-outline .wp-element-button:hover{
+  background-color: var(--wp--preset--color--custom-gray-light);
+}
