@@ -1,3 +1,61 @@
-.wp-block-button.is-style-outline .wp-element-button:hover{
+/* 輪郭ボタン ホバー時 */
+.wp-block-button.is-style-outline .wp-element-button:hover {
   background-color: var(--wp--preset--color--custom-gray-light);
+}
+
+/* 矢印付きボタン（デフォルト） */
+.wp-block-button.is-style-default-arrow-button .wp-element-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wp--preset--spacing--16);
+  padding: var(--wp--preset--spacing--16) var(--wp--preset--spacing--40);
+  border: 2px solid var(--wp--preset--color--custom-gray);
+  background: var(--wp--preset--color--custom-white);
+  color: var(--wp--preset--color--custom-black);
+
+  &::after {
+    content: "";
+    flex-shrink: 0;
+    width: 24px;
+    aspect-ratio: 1;
+    background: url("../image/block/button/default-arrow-button.svg") no-repeat
+      center / contain;
+  }
+
+  &:hover {
+    background: var(--wp--preset--color--custom-gray-light);
+
+    &::after {
+      background-image: url("../image/block/button/default-arrow-button--hover.svg");
+    }
+  }
+}
+
+/* 矢印付きボタン（プライオリティ） */
+.wp-block-button.is-style-priority-arrow-button .wp-element-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wp--preset--spacing--16);
+  padding: var(--wp--preset--spacing--16) var(--wp--preset--spacing--40);
+  border: 2px solid var(--wp--preset--color--custom-red);
+  background: var(--wp--preset--color--custom-red);
+  color: var(--wp--preset--color--custom-white);
+
+  &::after {
+    content: "";
+    flex-shrink: 0;
+    width: 24px;
+    aspect-ratio: 1;
+    background: url("../image/block/button/priority-arrow-button.svg") no-repeat
+      center / contain;
+  }
+
+  &:hover {
+    border-color: var(--wp--preset--color--custom-red-dark);
+    background: var(--wp--preset--color--custom-red-dark);
+
+    &::after {
+      background-image: url("../image/block/button/priority-arrow-button--hover.svg");
+    }
+  }
 }
