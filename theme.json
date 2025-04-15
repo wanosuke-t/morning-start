@@ -303,6 +303,7 @@
 					"slug": "semi-large"
 				},
 				{
+					"fluid": false,
 					"name": "Medium",
 					"size": "16px",
 					"slug": "medium"
