@@ -36,3 +36,16 @@ function add_priority_arrow_button()
   );
 }
 add_action('init', 'add_priority_arrow_button');
+
+
+function add_category_badge()
+{
+  register_block_style(
+    'core/post-terms',
+    array(
+      'name'  => 'category-badge',
+      'label' => 'バッジ'
+    )
+  );
+}
+add_action('init', 'add_category_badge');

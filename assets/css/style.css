@@ -59,3 +59,24 @@
     }
   }
 }
+
+/* カテゴリバッジ */
+.wp-block-post-terms.is-style-category-badge {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.wp-block-post-terms.is-style-category-badge a:where(:not(.wp-element-button)) {
+  display: block;
+  color: var(--wp--preset--color--custom-white);
+  font-size: var(--wp--preset--font-size--small);
+  text-decoration: none;
+  background: var(--wp--preset--color--custom-blue);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.wp-block-post-terms.is-style-category-badge .wp-block-post-terms__separator {
+  display: none;
+}
