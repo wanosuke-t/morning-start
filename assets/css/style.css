@@ -70,7 +70,6 @@
 .wp-block-post-terms.is-style-category-badge a:where(:not(.wp-element-button)) {
   display: block;
   color: var(--wp--preset--color--custom-white);
-  font-size: var(--wp--preset--font-size--small);
   text-decoration: none;
   background: var(--wp--preset--color--custom-blue);
   border-radius: 4px;
@@ -111,4 +110,52 @@
   background: var(--wp--preset--color--custom-red);
   color: var(--wp--preset--color--custom-white);
   font-weight: 700;
+}
+
+/* 検索 */
+.wp-block-search__input {
+  border: 2px solid var(--wp--preset--color--custom-gray-more-light);
+  background: var(--wp--preset--color--custom-gray-more-light);
+  padding: var(--wp--preset--spacing--12);
+}
+
+.wp-block-search__input::placeholder {
+  color: var(--wp--preset--color--custom-gray-dark);
+}
+
+:root .wp-block-search__button {
+  margin-left: var(--wp--preset--spacing--10);
+  border-width: 2px;
+  padding: var(--wp--preset--spacing--12) var(--wp--preset--spacing--24);
+  white-space: nowrap;
+}
+
+/* カテゴリー一覧 */
+.wp-block-categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wp--preset--spacing--12);
+  padding: 0;
+}
+
+.wp-block-categories-list .cat-item {
+  list-style: none;
+  position: relative;
+  padding-left: 18px;
+}
+
+.wp-block-categories-list .cat-item::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--wp--preset--color--custom-red);
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.wp-block-categories-list .cat-item a {
+  text-decoration: none;
 }
